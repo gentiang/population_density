@@ -3,4 +3,4 @@ This repoository cointains the code I use to create population density maps as w
 
 # Maps
 ## Albania Population Density
-[images_small/albania_population_density_sunrise.png]
+![Albania Population Density](images_small/albania_population_density_sunrise.png)
