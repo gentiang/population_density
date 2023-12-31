@@ -3,7 +3,7 @@ This repoository cointains the code I use to create population density maps as w
 
 # Maps
 ## Albania Population Density
-![Albania Population Density](images_small/albania_population_density_sunrise.png)
+![Albania Population Density](images_large/albania_population_density_sunrise.png)
 
 ## Albania Population Density (Alternative)
-![Albania Population Density (Alternative)](images_small/albania_population_density_pink.png)
+![Albania Population Density (Alternative)](images_large/albania_population_density_pink.png)
