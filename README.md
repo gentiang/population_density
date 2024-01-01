@@ -1,9 +1,9 @@
 # About
-This repoository cointains the code I use to create population density maps as well as shaded relief graphics using [Kontur](https://www.kontur.io/geospatial-datasets-catalog/) population data and the [`rayshader`](https://www.rayshader.com/) R package by Tyler Morgan-Wall. I take huge inspiration from [Spencer Schien](https://github.com/Pecners) whose maps and code are a massive help as I'm learning to make these.
+This repository cointains the code I use to create population density maps as well as shaded relief graphics using [Kontur](https://www.kontur.io/geospatial-datasets-catalog/) population data and the [`rayshader`](https://www.rayshader.com/) R package by Tyler Morgan-Wall. I take huge inspiration from [Spencer Schien](https://github.com/Pecners) whose maps and code are a massive help as I'm learning to make these.
 
 # Maps
 ## Albania Population Density
-![Albania Population Density](images_large/albania_population_density_sunrise.png)
+![Albania Population Density](images_small/albania_population_density_2.png)
 
 ## Albania Population Density (Alternative)
-![Albania Population Density (Alternative)](images_large/albania_population_density_pink.png)
+![Albania Population Density (Alternative)](images_small/albania_population_density_3.png)
