@@ -21,7 +21,3 @@ For more graphics like this and other data projects visit my personal page: [www
 ## [Albania Population Density](kontur_shader_map_al.R)
 
 ![Albania Population Density](images_small/albania_population_density_2.png)
-
-## [Albania Population Density (Alternative)](kontur_shader_map_al.R)
-
-![Albania Population Density (Alternative)](images_small/albania_population_density_3.png)
