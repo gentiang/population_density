@@ -9,11 +9,12 @@ library(tigris)
 library(stars)
 library(MetBrewer)
 library(NatParksPalettes)
+library(rayrender)
 
 # Loading data
-data <- st_read("kontur_data/kontur_population_AL_20231101.gpkg")
+data_al <- st_read("kontur_data/kontur_population_AL_20231101.gpkg")
 albania <- st_read("ALB_adm/ALB_adm3.shp") |> 
-  st_transform(crs = st_crs(data))
+  st_transform(crs = st_crs(data_al))
 
 # Map check
 albania |> 
@@ -21,7 +22,12 @@ albania |>
   geom_sf()
 
 # Intersecting map with kontur data
-st_albania <- st_intersection(data, albania)
+st_albania <- st_intersection(data_al, albania)
+
+st_albania |> 
+  group_by(NAME_2) |> 
+  slice_max(order_by = population, n=1) |> 
+  arrange(desc(population))
 
 # Define aspect ratio based on country bounding box
 bb <- st_bbox(st_albania)
